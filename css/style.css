@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul.parent {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  background-color: grey;
+  padding: 5px;
+}
+ul.parent li {
+  position: relative;
+}
+ul.parent li a {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+ul.parent li a:hover {
+  color: red;
+}
+
+.header {
+  background-image: url(../image/headder.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.content .products {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style: none;
+}
+.content .products li {
+  position: relative;
+  background-color: blanchedalmond;
+  height: 300px;
+  width: 300px;
+}
+.content .products li button {
+  position: absolute;
+  color: #FFF;
+  background-color: palevioletred;
+  border: none;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  cursor: pointer;
+}
+.content .products li button:hover {
+  color: blue;
+}
+.content .products li img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+}/*# sourceMappingURL=style.css.map */
